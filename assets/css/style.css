@@ -1,0 +1,59 @@
+/*-------------------------------------------------
+ * style.css
+ * Copyright 2017 Moch. Firmansyah
+ -------------------------------------------------*/
+ 
+
+/* TAG */
+* {
+	text-shadow: 0px !important;
+}
+body {
+	font-family:'Exo 2', sans-serif;
+	*font-family: 'Arial Narrow';
+}
+.table th {
+	vertical-align: middle !important;
+	text-align: center;
+}
+
+
+/* ADMINLTE */
+.login-logo,.register-logo{font-size:35px;text-align:left;margin-bottom:25px;font-weight:300}
+.login-logo a,.register-logo a{color:yellow}
+.login-page,.register-page{background:#3c8dbc}
+.treeview-menu a{
+	font-size: 90% !important;
+}
+@media (max-device-width: 480px) and (orientation: landscape) {
+	.navbar-fixed-top {
+		top: 0;
+		position: fixed;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+	}
+
+	.container-fix{
+		margin-top:50px;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-fixed-top {
+		top: 0;
+		position: fixed;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+	}
+}
+
+.container-fix{
+	margin-top:50px;
+}
+
+/* RESPONSIVE */
+@media screen and (min-width: 0px) and (max-width: 370px) {
+	.fclock { display: none; }
+}
